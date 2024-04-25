@@ -704,6 +704,7 @@ Error:
 5xx can be changed to 4xx //// TODO does everyone agree with this? yes, everyone agress
 
 
+//// TODO during a discussion about allowing a change from 201 to 409 (because duplicates were being created), there was a lot of sentiment that "fixing" things shouldn't be considered a break; it was also stated that going from 201 to 409 *is* a break if it wasn't part of the original design of the API (i.e. duplicates were intended initially, but now they are not is a semantic change taht *should* be considered breaking and should follow a proper deprecation process); it *might* be worth writing down the specific case where 201 to 409 is "not a break" (the case where allowing duplicates was not part of the original design), but this would just be a subset of "fixing things shouldn't be considered a break", so if that is our guidance, then we shouldn't need to write down the specifics of 201 to 409
 //// TODO cannot within the 4xx's //// getting lots of feedback that we *shouldn't* allow this, some feedback about specific cases where it makes sense; go through the status codes offline and bring back a proposal
 //// can you change within 5xx's?
 
