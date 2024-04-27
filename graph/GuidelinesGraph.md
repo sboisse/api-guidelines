@@ -358,6 +358,7 @@ removing open type and schematizing: the schematized property will no longer be 
 sdks can have issues with expanding type hierarchies
 adding a new base type (regardless of if referencing properties are changed)
 adding an intermediate type
+make sure to document this explicit customer communication about sdk breaks: https://teams.microsoft.com/l/message/19:meeting_ZmM3YTQ5ODEtYzNkZC00M2ViLTk1YTAtODYyMjVhOTRkNjQz@thread.v2/1714142731942?context=%7B%22contextType%22%3A%22chat%22%7D
 */
 
 option 1
